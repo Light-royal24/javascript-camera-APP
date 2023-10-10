@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Webcam photo Capture</title>
+</head>
+<body>
+    <div class="container">
+        <!-- webcam video feed will be displayed here -->
+        <!-- <div class="video-container">
+            <video id="video" autoplay></video>
+        </div> -->
+        <!--  -->
+        <main id="camera">
+            <!-- camera view -->
+            <video id="camera-view" autoplay playsinline></video>
+            <!-- camera sensor -->
+            <canvas id="camera-sensor"></canvas>
+            <!-- camera output -->
+            <img src="" alt="" id="camera-output">
+            <!-- camera trigger -->
+            <button id="camera-trigger">Take a picture</button>
+        </main>
+        <!-- control for turning the camera on/off and capturing photos -->
+        <!-- <div class="control">
+            <button id="toggleButton">Turn Camera ON</button>
+            <button id="captureButton" disabled>Capture photo</button>
+        </div> -->
+        <!-- Gallery to display capture photos -->
+        <!-- <div class="Gallery">
+            <h2>Gallery</h2>
+            <div id="imageGallery" class="image-gallery"></div>
+        </div> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
